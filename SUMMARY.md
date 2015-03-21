@@ -1,10 +1,11 @@
 # Summary
 
 * [Introduction](README.md)
-* [缘起](source/begin.md)
-* [part1](source/part1/intro.md)
-   * [使用git](source/part1/git.md)
-   * [使用markdown](source/part1/markdown.md)
-   * [注册github](source/part1/github.md)
-   * [注册gitbook](source/part1/gitbook.md)
+* [前言](source/preface.md)
+* [第0章：编程者工作流](source/part1/intro.md)
+   * [持续记录：使用git](source/part1/git.md)
+   * [优雅书写：使用markdown](source/part1/markdown.md)
+   * [加入社群：github和mailing list](source/part1/github.md)
+   * [整理分享：使用gitbook](source/part1/gitbook.md)
+ 
 
