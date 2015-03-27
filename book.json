@@ -1,1 +1,8 @@
-{}
+{
+    "plugins": [
+    "disqus"
+    ],
+    "pluginsConfig": {
+        "shortName": "mechyan.disqus.com"
+    }
+}
