@@ -1,3 +1,4 @@
+
 可视工具：tkinter
 ===
 ## 初识tkinter
@@ -27,7 +28,17 @@ tkinter中需要建立一个**窗口**，作为整个程序的主界面，其他
 
 tkinter也是事件驱动的编程框架，需要外部事件的推动才能运行。不同于simplegui，tkinter中必须明确建立事件循环，即，用来等待外部事件的循环。否则的话，整个tkinter都运行不了。开启事件循环的代码：
      tkinter.mainloop()
-
+     
+### Canvas组件
+tk.Canvas()创建一个Canvas。  
+bd或者borderwidth可以设置边框的“厚度”。这个“厚度”会占用canvas的实际可用空间，而不是挤占外部空间。  
+####Canvas事件
+为了让canvas组件响应外部事件，需要bind方法进行绑定：
+    canvas.bind("event-name-string", event_handler)
+比如，我们要绑定鼠标事件，则event-name-string为"Button"，任何鼠标按键按下都会触发该事件，如果要绑定特定鼠标按键的按下事件，则鼠标的左键、中键、右键对应的事件名称分别是：Button-1、Button-2、Button-3（*请注意，只有双键的鼠标，右键仍然是Button-3*）。
+Button事件实际上相当于按键按下事件；如果想捕获按键弹起事件，需使用ButtonRelease事件，特定鼠标按键的弹起事件命名同Button事件。   
+*注意*当同时使用了Button和Button-i绑定事件句柄之后，事件发生后，Button绑定失效。
+*注意2*如果同一事件绑定了两个句柄，则代码中后绑定的一个会覆盖先绑定的一个。
 ## 注意
 ### 使用中文
 python默认将所有程序代码视为ASCII，如果使用了中文，它就会不认识，然后报错。经验证，在不显式提示编码信息的情况下，使用   
