@@ -12,5 +12,5 @@
    * [代码布局]()
    * [挑战游戏：Guess That Number](source/part2/Guess_The_Number.md)
    * [标准GUI: tkinter](source/part2/tkinter.md) 
-   * [实用工具：自制画板]（source/part2/drawing_board_1.md）
+   * [实用工具：自制画板](source/part2/drawing_board_1.md)
 
