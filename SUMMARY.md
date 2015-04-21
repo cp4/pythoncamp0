@@ -13,6 +13,7 @@
        * [控制流程]()
    * [代码布局]()
    * [挑战游戏：Guess That Number](source/part2/Guess_The_Number.md)
+   * [简易GUI：simplegui](source/part2/pygame2simplegui.md)
    * [标准GUI: tkinter](source/part2/tkinter.md) 
    * [实用工具：自制画板](source/part2/drawing_board_1.md)
    * [缩放之间：模块化与接口互联]()
@@ -39,4 +40,4 @@
        * [第四周]()
        * [第五周]()
    * [项目展示]()
-* [temp:问题清单](source/temp/issues.md)
+* [tmp:问题清单](source/tmp/issues.md)
