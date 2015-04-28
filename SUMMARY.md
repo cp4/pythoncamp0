@@ -1,4 +1,4 @@
-# Summary
+#Contents
 
 * [Introduction](README.md)
 * [前言](source/preface.md)
@@ -25,11 +25,12 @@
        * [透明效果的实现]()
        * [动态晕染效果的追求]()
        * [随机笔触的追求]()
-* [第2章：作品之门]()
+* [第2章：作品之门](source/part3/intro.md)
    * [项目构思]()
-       * [缘起]()
-       * [流变]()
+       * [缘起](source/part3/begining.md)
+       * [流变](source/part3/evolving.md)
    * [项目计划]()
+       * [项目规划](source/part3/common_plan.md)
        * [设计]()
        * [编码]()
        * [外部测试]()
