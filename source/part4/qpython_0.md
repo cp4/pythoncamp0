@@ -20,6 +20,9 @@ Console不说了，Kivy相当于本地GUI，Webapp则遵从web开发方法。
 从kivy主页来看，这个GUI就是给移动应用开发的，可以接受触摸等操作。
 我认为Web开发在未来的移植性会较好，qpython[微博](http://www.weibo.com/qpython?from=profile&wvr=5&loc=infdomain)主推super webapp模式。但没找到所谓的supper webapp是什么，从给出的链接看，就是webapp开发嘛。  
 考虑web开发可能需要学习前端知识，更适合熟悉HTML开发的工程师，暂时不想做，如果有时间还真想试试。
+## webapp点赞备份
+从文档上看，QPyhon的web开发，[中文文档](http://wiki.qpython.org/zh/webapp/sample/)领先于英文文档，介绍也比较细致。
+地址是：http://wiki.qpython.org/zh/webapp/sample/
 
 ## 代码的输入
 QOCR模式，太酷了。
