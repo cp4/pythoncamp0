@@ -29,10 +29,12 @@ Kivy是一个跨平台的GUI库，Windows，OS X， Linux， Android， iOS通�
     if __name__ == '__main__':
         MyApp().run()
         
-在 QPython 中运行 kivy 程序，还需要在开头加入一条说明语句：
+在 QPython 中运行 kivy 程序，还需要在开头加入一条说明语句：  
+
     #qpy:kivy
 
-所以完整的，可以运行的程序代码是：
+所以完整的，可以运行的程序代码是：  
+
     #qpy:kivy
     
     from kivy.app import App
