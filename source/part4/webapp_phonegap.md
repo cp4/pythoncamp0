@@ -22,7 +22,23 @@ Cordova 也需要通过 Node.js 来安装。
 > npm install -g cordova
 
 ##### 使用
-坑：
+######初始化一个项目  
+> cordova create x-file org.omc.xfile BookHub
+
+这句话的意思是：创建一个工程，工程名叫 x-file；手机 app 都会有一个类似逆序 url 的路径关系，就是org.omc.xfile 这个东东，会体现在config.xml 里，会影响到在手机中的安装位置。 BookHub 才是这个 app 被用户打开后看到的程序名字。  
+也可以只输入一个工程名字，其他都会默认。
+
+######为新项目配置支持平台
+> cordova platform add android
+
+这里以 Android 举例，说明了增加对 Android 平台的支持，添加后，该项目可以部署到 Android 平台了；如果想知道有哪些平台可供添加，可以输入命令查看  
+> cordova platforms ls
+
+######编译代码
+> cordova build android
+
+该命令会编译一个 andorid 版本的app 安装文件，即，apk 文件。编译过程可能会进入下面提及的坑。
+#######坑：
 一直卡在> Configuring > 0/1 projects > root project > Resolving dependencies ':classpath'
 > 这个问题是由于Gradle要下载一些依赖的Library，归功于我们伟大的GFW，让我们无法访问maven的官方网站。
 
