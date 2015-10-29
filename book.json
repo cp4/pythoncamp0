@@ -2,7 +2,7 @@
     "plugins": [
     "disqus"
     ],
-    "pluginsConfig": {
-        "shortName": "mechyan.disqus.com"
+    "pluginConfig": {
+        "shortName": "peiyanwang"
     }
 }
