@@ -1,8 +1,11 @@
-{
-    "plugins": [
-        "disqus"
-    ],
+{"title": "homework2",
+    "version": "1.0",
+    "description": "python速查手册",
+    "author": "MaxWang <wangppei@163.com>",
+    "plugins": ["disqus"],
     "pluginsConfig": {
-        "shortName": "Mechyan"
-    }
+        "disqus": {
+            "shortName": "mechyan"
+        }
+    } 
 }
