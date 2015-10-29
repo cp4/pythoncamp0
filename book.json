@@ -1,8 +1,9 @@
 {
     "plugins": [
-    "disqus"
+        "disqus"
     ],
     "pluginConfig": {
         "shortName": "peiyanwang"
-    }
+    },
+    "pluginsConfig": {}
 }
